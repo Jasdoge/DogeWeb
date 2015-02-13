@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+body:before {
+    content: "";
+    position: fixed;
+    background: url(http://i.imgur.com/81qyN1y.jpg);
+    background-size: cover;
+    z-index: -1; /* Keep the background behind the content */
+    height: 100%; width: 100%; /* Using Glen Maddern's trick /via @mente */
+    /* don't forget to use the prefixes you need */
+    transform: scale(5);
+	background-repeat:repeat;
+    transform-origin: top left;
+    filter: opacity(20%);
+	-webkit-filter: opacity(20%);
+	
+}
+
+h1, h2, h3, h4, p, body, li, a{
+	font-family:"Comic Sans MS", cursive !important;
+}
+
+body .doge_red{color:#F00 !important;}
+body .doge_green{color:#0F0 !important}
+body .doge_blue{color:#00F !important}
+body .doge_lblue{color:#0CF !important}
+body .doge_yellow{color:#990 !important}
+body .doge_orange{color:#F90 !important}
+body .doge_pink{color:#F0F !important}
+body .doge_purple{color:#90F !important}
+body .doge_teal{color:#0FF !important}
+
+
+
